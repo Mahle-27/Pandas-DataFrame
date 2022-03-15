@@ -12,13 +12,13 @@
 
 import pandas as pd
 
-Chips =['Cheetos','Fritos','Lays']
-Cooldrinks = ['Stoney','Sprite', 'Coke']
-Chocolates = [' Sneakers', 'Kit-Kat', 'Lunchbar']
-Pies =['Chicken Curry', 'Steak & Kidney', 'Burger pie']
-Fruit =['Peach', 'Banana', 'Pineapple']
-Cupcakes =['Choc chip', 'Blueberry', 'Red velvet']
-Veggies =['Brocolli', 'Onion', 'Spinach']
+Chips =['Cheetos','Fritos','Lays', 'Doritos']
+Cooldrinks = ['Stoney','Sprite', 'Coke', 'Fanta']
+Chocolates = [' Sneakers', 'Kit-Kat', 'Lunchbar', 'PS']
+Pies =['Chicken Curry', 'Steak & Kidney', 'Burger pie', 'Pepper steak']
+Fruit =['Peach', 'Banana', 'Pineapple', 'Strawberry']
+Cupcakes =['Choc chip', 'Blueberry', 'Red velvet', 'Sponge cake']
+Veggies =['Brocolli', 'Onion', 'Spinach', 'Potato']
 
 df = pd.DataFrame(list(zip(Chips,Cooldrinks,Chocolates,Pies,Fruit,Cupcakes,Veggies)),
                   columns=['Chips','Cooldrinks','Chocolates','Pies', 'Fruit', 'Cupcakes', 'Veggies'])
